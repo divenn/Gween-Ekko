@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(270deg, #ffe8bc, #3d180049);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.main-img {
+    border-radius: 20px;
+}
+
+.preview-imgs{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    border-radius: 150px;
+}
+
+.Ekko {
+    margin-right: 150px;
+}
